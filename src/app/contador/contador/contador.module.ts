@@ -9,7 +9,7 @@ declarations:[
       
     ],
     exports:[
-        ContadorComponent // Exportando solo el listadoComponent......
+        ContadorComponent // Exportando solo el listadoComponent
     ],
     
     
