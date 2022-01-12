@@ -1,0 +1,24 @@
+
+
+<form (ngSubmit)="agregar()" > <!-- el evento personalisado ngSubmit sirve para que no refresque a página-->
+    <input
+     type="text" 
+     placeholder="Nombre"
+     name="nombre"
+     [(ngModel)]="nuevo.nombre"
+     
+     /><!--Parentesis dentro de [()] quiere decir que quiere tanto escuchar como emitir el evento y ese valor que caiga en nuevo.nombre -->
+     
+     <!--[value]="nuevo.nombre"
+     (input)="cambiarNombre( $event)"-->
+
+    <input 
+       type="number" 
+       placeholder="Poder"
+       name="poder"
+       [(ngModel)]="nuevo.poder" />
+
+    <button type="submit">
+        Agregar
+    </button>
+</form>
