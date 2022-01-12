@@ -12,8 +12,9 @@ import { Personaje } from '../interfaces/dbz.interface';
 export class MainPageComponent  {
   personajes: Personaje[]=[
     {
-      nombre:'Christopher',
-      poder: 25.1},
+      nombre:'Chris',
+      poder: 25.1
+    },
     {
       nombre:'Camila',
       poder:26.3
